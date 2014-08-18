@@ -1,0 +1,45 @@
+body {
+	background: url(../images/3.jpg);
+	height: 100%; 
+	width: 100%;
+}
+	
+#wrapper {
+	background-color: #f5f5f5;
+	width: 960px;
+	height: 100%;
+    margin: 0 auto;
+}
+
+#header {
+	background-color: #fffafa;
+	width: 960px;
+	height: 260px;
+    margin: 0 auto;
+}
+
+#logo4 {
+	text-align: center;
+	margin-top: -35px;
+}
+
+h2 {
+	text-align: center;
+}
+
+#h2_header {
+	font-family: Courier, "Courier New", monospace;
+	font-size: 1.85em;
+	line-height: 200%;
+	letter-spacing: 0.15em;
+	color: #3cb371;
+}
+
+#h2_footer {
+	font-family: Courier, "Courier New", monospace;
+	font-size: 2.35em;
+	line-height: 200%;
+	letter-spacing: 0.15em;
+	color: #3cb371;
+	margin-top: -1px;
+}
