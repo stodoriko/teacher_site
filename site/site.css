@@ -9,6 +9,7 @@ body {
 	width: 960px;
 	height: 100%;
     margin: 0 auto;
+    border: 2px solid #666666;
 }
 
 #header {
@@ -16,11 +17,12 @@ body {
 	width: 960px;
 	height: 260px;
     margin: 0 auto;
+    margin-top: -25px;
 }
 
 #logo4 {
 	text-align: center;
-	margin-top: -35px;
+	margin-top: -40px;
 }
 
 h2 {
@@ -29,10 +31,11 @@ h2 {
 
 #h2_header {
 	font-family: Courier, "Courier New", monospace;
-	font-size: 1.85em;
+	font-size: 2em;
 	line-height: 200%;
-	letter-spacing: 0.15em;
+	letter-spacing: 0.25em;
 	color: #3cb371;
+	text-shadow: 1px 1px 3px #666666;
 }
 
 #h2_footer {
@@ -42,4 +45,30 @@ h2 {
 	letter-spacing: 0.15em;
 	color: #3cb371;
 	margin-top: -1px;
+	text-shadow: -1px -3px #666666;
+}
+
+#nav_horizontally {
+	width: 960px;
+	height: 60px;
+	border-style:  solid;
+	border-width: 1px 0px 0px 0px;
+}
+
+#nav_horizontally_2 {
+	width: 850px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 35px;
+}	
+
+a:hover, a.on {
+	color: #3cb371;
+}
+
+li {
+	display: inline;
+	margin: 25px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1.20em;
 }
