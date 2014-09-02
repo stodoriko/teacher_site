@@ -23,6 +23,7 @@ body {
 #apple {
 	text-align: center;
 	margin-top: -40px;
+	box-shadow: 2px 2px 3px 6px #C0C0C0;
 }
 
 #nav_horizontally {
@@ -30,11 +31,9 @@ body {
 	height: 50px;
 	background-color: #088A85;
 	margin-top: -15px;
-<<<<<<< HEAD
-=======
 	line-height: 50px;
->>>>>>> 45928f9067aa3d2ffe1e93e9f9cdae9df257dbd5
 }
+
 
 /*#content {
 	background-color: #fffafa;
@@ -42,11 +41,6 @@ body {
 	height: 860px;
 	border: 1px;
 }*/
-
-#apple {
-	text-align: center;
-	margin-top: -40px;
-}
 
 a:hover, a.on {
 	color: #ff0000;
