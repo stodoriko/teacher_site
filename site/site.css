@@ -5,26 +5,31 @@ body {
 }
 	
 #wrapper {
-	background-color: #f5f5f5;
+	background-color: #fffafa;
 	width: 960px;
-	height: 1000px;
+	height: 1100px;
     margin: 0 auto;
-    border: 5px dashed #088A85;
+    border: 3px dashed #red;
 }
 
 #header {
 	background-color: #fffafa;
 	width: 960px;
-	height: 260px;
+	height: 300px;
     margin: 0 auto;
-    margin-top: -25px;
+    margin-top: 55px;
+}
+
+#apple {
+	text-align: center;
+	margin-top: -40px;
 }
 
 #nav_horizontally {
 	width: 960px;
 	height: 50px;
 	background-color: #088A85;
-	margin-top: -5px;
+	margin-top: -15px;
 }
 
 /*#content {
@@ -34,32 +39,9 @@ body {
 	border: 1px;
 }*/
 
-#logo4 {
+#apple {
 	text-align: center;
 	margin-top: -40px;
-}
-
-h2 {
-	text-align: center;
-}
-
-#h2_header {
-	font-family: Courier, "Courier New", monospace;
-	font-size: 2em;
-	line-height: 200%;
-	letter-spacing: 0.25em;
-	color: #088A85;
-	text-shadow: 1px 1px 3px #666666;
-}
-
-#h2_footer {
-	font-family: Courier, "Courier New", monospace;
-	font-size: 2.35em;
-	line-height: 200%;
-	letter-spacing: 0.15em;
-	color: #088A85;
-	margin-top: -1px;
-	text-shadow: -1px -3px #666666;
 }
 
 a:hover, a.on {
