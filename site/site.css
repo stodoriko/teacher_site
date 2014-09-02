@@ -9,11 +9,11 @@ body {
 	width: 960px;
 	height: 1100px;
     margin: 0 auto;
-    border: 3px dashed #red;
+    box-shadow: 2px 2px 3px 6px #ffffff;
 }
 
 #header {
-	background-color: #fffafa;
+	background-color: #ffffff;
 	width: 960px;
 	height: 300px;
     margin: 0 auto;
@@ -23,7 +23,6 @@ body {
 #apple {
 	text-align: center;
 	margin-top: -40px;
-	box-shadow: 2px 2px 3px 6px #C0C0C0;
 }
 
 #nav_horizontally {
@@ -32,6 +31,11 @@ body {
 	background-color: #088A85;
 	margin-top: -15px;
 	line-height: 50px;
+	box-shadow: 2px 2px 3px 6px #088A85;
+}
+
+#nav_horizontally2 {
+
 }
 
 
@@ -53,6 +57,12 @@ a {
 li {
 	display: inline;
 	margin: 25px;
-	font-family: "Courier New", Courier, monospace;
-	font-size: 1.22em;
+	font-family: "Comic Sans MS", Courier, monospace;
+	font-size: 1.45em;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 40px;
+	color: #ff0000;
 }
