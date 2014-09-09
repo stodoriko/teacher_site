@@ -50,13 +50,12 @@ body {
 }
 
 .article1 {
-	background-color: #00FF00;
-	width: 620px;
+	background-color: #ffffff;
+	width: 550px;
 	height: 475px;
 	margin-left: 20px;
 	display: inline-block;
 	vertical-align: top;
-
 }
 
 .article2 {
@@ -69,12 +68,12 @@ body {
 	vertical-align: top;
 }
 
-/*.article3 {
+.YMapsID {
 	width: 895px;
 	height: 475px;
 	margin-left: 20px;
 	margin-top: 40px;
-}*/
+}
 
 #footer {
 	background-color: #000000;
@@ -102,4 +101,52 @@ li {
 
 h3 {
 	text-decoration: underline;
+}
+
+/* form styles */
+form .row {
+	display: block;
+	padding: 5px 6px;
+	margin-bottom: 5px;
+}
+
+form label {
+	display: inline-block;
+	font-size: 1.2em;
+	font-weight: bold;
+	width: 190px;
+	padding: 6px 0;
+	color: #464646;
+	vertical-align: top;
+}
+
+form .req { 
+	color: #ca5354; 
+}
+
+form .note {
+font-size: 1.2em;
+line-height: 1.33em;
+font-weight: normal;
+padding: 2px 7px;
+margin-bottom: 10px;
+}
+
+form .txt {
+	display: inline-block;
+	padding: 3px 4px;
+	padding-right: 30px;
+	width: 240px;
+	font-family: "Comic Sans MS", Courier, monospace;
+	font-size: 1em;
+	color: #898989;
+}
+
+.textarea {
+	font-size: 1.45em;
+	color: #000000;
+}
+
+.center {
+	text-align: center;
 }

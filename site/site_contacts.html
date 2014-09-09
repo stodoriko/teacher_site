@@ -9,15 +9,12 @@
 			type="text/javascript">
 		</script>
 
-		<script type="text/javascript">
+		 <!--<script type="text/javascript">
 			window.onload = function () {
 			var map = new YMaps.Map(document.getElementById("YMapsID"));
 			map.setCenter(new YMaps.GeoPoint(37.64, 55.76), 10);
 			}
-		</script>
-
-		<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=zAUCv67yeP4KU3qHkfXGeJViip7uDW8Y&width=600&height=450">
-		</script>
+		</script> -->
 
 		<link href="site_contacts.css" type="text/css" rel="stylesheet">
 	</head>	
@@ -47,15 +44,43 @@
 				<div class="box">	
 
 					<div class="article1">
-						
-					</div>	
+						<form method="POST" class="feedback-form">
+
+							<p class="note"><span class="req">*</span> Поля со звездочкой обязательны для заполнения</p>
+
+							<div class="row">
+								<label for="name">Ваше Имя <span class="req">*</span></label>
+								<input type="text" name="name" id="name" class="txt" tabindex="1" placeholder="" required>
+							</div>
+
+							<div class="row">
+								<label for="email">E-mail Адрес<span class="req">*</span></label>
+								<input type="email" name="email" id="email" class="txt" tabindex="2" placeholder="" required>
+							</div>
+
+							<div class="row">
+								<label for="subject">Тема <span class="req">*</span></label>
+								<input type="text" name="subject" id="subject" class="txt" tabindex="3" placeholder="" required>
+							</div>
+
+							<div class="row">
+								<label for="message">Сообщение <span class="req">*</span></label>
+								<textarea name="message" class="textarea" cols="45" rows="5"required></textarea>
+							</div>
+
+							<div class="center">
+								<input type="submit" id="submitbtn" name="submitbtn" tabindex="5" value="Отправить Сообщение">
+							</div>
+
+						</form>
+					</div>
 
 					<div class="article2">
 						
 					</div>	
 
-					<div id="YMapsID">
-						
+					<div class="YMapsID">
+						<img src="//api-maps.yandex.ru/services/constructor/1.0/static/?sid=-PGXkEFycEKtgTEZ3ucgcB8cQvLufnJp" alt=""/>
 					</div>
 
 				</div>
