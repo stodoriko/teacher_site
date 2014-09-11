@@ -10,6 +10,7 @@ body {
 	height: 1450px;
     margin: 0 auto;
     box-shadow: 0px 0px 120px #000000;
+    border-radius: 5px;
 }
 
 #header {
@@ -32,6 +33,7 @@ body {
 	margin-top: -15px;
 	line-height: 50px;
 	box-shadow: 0px 0px 10px #000000;
+	border-radius: 3px;
 }
 
 #content {
@@ -66,6 +68,7 @@ body {
 	margin-right: 10px;
 	display: inline-block;
 	vertical-align: top;
+	border-radius: 20px;
 }
 
 .YMapsID {
@@ -73,6 +76,7 @@ body {
 	height: 475px;
 	margin-left: 20px;
 	margin-top: 40px;
+	background-color: #FF0000;
 }
 
 #footer {
@@ -108,6 +112,7 @@ form .row {
 	display: block;
 	padding: 5px 6px;
 	margin-bottom: 5px;
+	font-family: "Comic Sans MS", Courier, monospace;
 }
 
 form label {
@@ -125,11 +130,12 @@ form .req {
 }
 
 form .note {
-font-size: 1.2em;
-line-height: 1.33em;
-font-weight: normal;
-padding: 4px 9px;
-margin-bottom: 10px;
+	font-size: 0.9em;
+	line-height: 1.33em;
+	font-weight: normal;
+	padding: 4px 9px;
+	margin-bottom: 10px;
+	font-family: "Comic Sans MS", Courier, monospace;
 }
 
 form .txt {
@@ -150,9 +156,16 @@ form .txt {
 
 .center {
 	text-align: center;
+	margin-left: 190px;
+	margin-top: -60px;
 }
 
 .buttom {
-	height: 35px;
-	width: 200px;
+	height: 45px;
+	width: 220px;
+	background-color: #088A85;
+	color: #ffffff;
+	font-family: "Comic Sans MS", Courier, monospace;
+	font-size: 1.1em;
+	border-radius: 10px;
 }
