@@ -5,7 +5,7 @@ body {
 }
 	
 #wrapper {
-	background-color: #fffafa;
+	background-color: #ffffff;
 	width: 960px;
 	height: 1450px;
     margin: 0 auto;
@@ -121,14 +121,14 @@ form label {
 }
 
 form .req { 
-	color: #ca5354; 
+	color: #FF0000; 
 }
 
 form .note {
 font-size: 1.2em;
 line-height: 1.33em;
 font-weight: normal;
-padding: 2px 7px;
+padding: 4px 9px;
 margin-bottom: 10px;
 }
 
@@ -139,14 +139,20 @@ form .txt {
 	width: 240px;
 	font-family: "Comic Sans MS", Courier, monospace;
 	font-size: 1em;
-	color: #898989;
+	color: #000000;
 }
 
 .textarea {
-	font-size: 1.45em;
+	font-size: 1.00em;
 	color: #000000;
+	font-family: "Comic Sans MS", Courier, monospace;
 }
 
 .center {
 	text-align: center;
+}
+
+.buttom {
+	height: 35px;
+	width: 200px;
 }
