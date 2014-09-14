@@ -1,0 +1,187 @@
+body {
+	background: url(../images/3.jpg);
+	height: 100%; 
+	width: 100%;
+}
+	
+.wrapper {
+	background-color: #ffffff;
+	width: 960px;
+	height: 1450px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 120px #000000;
+    border-radius: 5px;
+}
+
+.header {
+	background-color: #ffffff;
+	width: 940px;
+	height: 300px;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+.apple {
+	text-align: center;
+	margin-top: -40px;
+}
+
+.nav {
+	width: 958px;
+	height: 50px;
+	background-color: #088A85;
+	margin-top: -15px;
+	line-height: 50px;
+	box-shadow: 0px 0px 10px #000000;
+	border-radius: 3px;
+}
+
+.content {
+	background-color: #ffffff;
+	width: 940px;
+	height: 545px;
+	margin: 0 auto;
+	margin-top: -15px;
+}
+
+.write_me {
+	text-align: center;
+	margin-top: 40px;
+	color: #FF0000;
+	font-family: "Comic Sans MS", Courier, monospace;
+}
+
+.feedback-form {
+	background-color: #ffffff;
+	width: 550px;
+	height: 475px;
+	margin-left: 20px;
+	display: inline-block;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.YMapsID {
+	width: 895px;
+	height: 475px;
+	margin-left: 20px;
+	margin-top: 40px;
+	background-color: #FF0000;
+}
+
+.footer {
+	background-color: #000000;
+	width: 960px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+a:hover {
+	color: #ff0000;
+}
+
+a {
+	color: #FBF8EF;
+}
+
+li {
+	display: inline;
+	margin: 25px;
+	font-family: "Comic Sans MS", Courier, monospace;
+	font-size: 1.45em;
+	text-shadow: 1px 1px 1px;
+}
+
+h3 {
+	text-decoration: underline;
+}
+
+/* form styles */
+form .row {
+	display: block;
+	padding: 5px 6px;
+	margin-bottom: 5px;
+	font-family: "Comic Sans MS", Courier, monospace;
+}
+
+form label {
+	display: inline-block;
+	font-size: 1.2em;
+	font-weight: bold;
+	width: 190px;
+	padding: 6px 0;
+	color: #464646;
+	vertical-align: top;
+}
+
+form .req { 
+	color: #FF0000; 
+}
+
+form .note {
+	font-size: 0.9em;
+	line-height: 1.33em;
+	font-weight: normal;
+	padding: 4px 9px;
+	margin-bottom: 10px;
+	font-family: "Comic Sans MS", Courier, monospace;
+}
+
+form .txt {
+	display: inline-block;
+	padding: 3px 4px;
+	padding-right: 30px;
+	width: 240px;
+	font-family: "Comic Sans MS", Courier, monospace;
+	font-size: 1em;
+	color: #000000;
+}
+
+.textarea {
+	font-size: 1.00em;
+	color: #000000;
+	font-family: "Comic Sans MS", Courier, monospace;
+}
+
+.center {
+	text-align: center;
+	margin-left: 190px;
+	margin-top: -60px;
+}
+
+.buttom {
+	height: 45px;
+	width: 220px;
+	background-color: #088A85;
+	color: #ffffff;
+	font-family: "Comic Sans MS", Courier, monospace;
+	font-size: 1.1em;
+	border-radius: 10px;
+}
+
+/* contacts styles */
+
+.contacts {
+	background-color: #ffffff;
+	width: 340px;
+	height: 450px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: top;
+	border-style: solid;
+	border-width: 0px 0px 0px 2px;
+	border-left-color: #088A85;
+}	
+
+
+.contacts_note {
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: "Comic Sans MS", Courier, monospace;
+	letter-spacing: 1px;
+	color: #464646;
+}
