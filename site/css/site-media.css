@@ -55,7 +55,7 @@ body {
 
 .navigation2 {
 	position: absolute;
-	/*display: none;*/
+	display: none;
 	width: 140px;
 	height: 160px;
 	background-color: #006666;
@@ -88,10 +88,10 @@ li a:hover {
 	background: #006666;
 } 
 
-/*li.nav-level1:hover {
+.nav-level1:hover .navigation2 {
 	display: block;
 }
-*/
+
 
 /*a {
 	outline: 3px red solid;
