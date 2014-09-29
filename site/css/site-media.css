@@ -54,26 +54,25 @@ body {
 }
 
 .navigation2 {
-	width: 150px;
+	position: absolute;
+	/*display: none;*/
+	width: 140px;
 	height: 160px;
 	background-color: #006666;
-	position: absolute;
-	margin-left: 50px;
+	margin-left: 30px;
 	margin-top: 1px;
 	box-shadow: 0px 0px 8px #000000;
 }
 
 .nav-level2-ul {
 	list-style: none;
-	margin-left: 15px;
-	padding: 10px;
-	font-family: "Comic Sans MS", Courier, monospace;
-	font-size: 19px;
-	margin-top: -5px;
 }
 
 .nav-level2 {
-	text-decoration: none;
+	font-family: "Comic Sans MS", Courier, monospace;
+	font-size: 19px;
+	margin-top: 4px;
+	margin-left: -14px;
 }
 
 a {
@@ -81,21 +80,18 @@ a {
 	text-decoration: none;
 }
 
-.nav-level1-link:hover {
-	color: #ff0000;
-}
-
-.nav-level2-link:hover {
-	color: #ff0000;
+li a:hover {
+	color: #ff0000; /*красный*/
 }
 
 .nav-level1:hover {
 	background: #006666;
-}
+} 
 
-li:hover {
-	background: #006666;
+/*li.nav-level1:hover {
+	display: block;
 }
+*/
 
 /*a {
 	outline: 3px red solid;
