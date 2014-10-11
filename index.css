@@ -97,7 +97,7 @@ body {
 
 
 a {
-	color: #FBF8EF;
+	color: #FBF8EF;  /*белый*/
 	text-decoration: none;
 }
 
@@ -107,7 +107,7 @@ li a:hover {
 
 .nav-level1:hover {
 	background: #006666;
-} 
+}
 
 .nav-level1:hover .navigation2 {
 	display: block;
