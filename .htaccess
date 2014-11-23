@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRUle  ^/main.html$  http://vyazovova.ru/ [R=301,L]
+RewriteRUle  ^/index.html$  http://vyazovova.ru/ [R=301,L]
