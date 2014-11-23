@@ -1,7 +1,7 @@
 .wrapper {
 	background-color: #ffffff;
 	width: 960px;
-	height: 1500px;
+	height: 2500px;
     margin: 0 auto;
     box-shadow: 0px 0px 120px #000000;
     border-radius: 5px;
@@ -10,6 +10,6 @@
 #YMapsID {
 	width: 800px;
 	height: 400px;
-	margin-left: 80px;
-	margin-top: 40px;
+	margin-left: 180px;
+	margin-top: 100px;
 }
