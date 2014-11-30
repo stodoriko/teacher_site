@@ -1,0 +1,29 @@
+h2 {
+	text-align: center;
+	margin-top: 40px;
+	font-family: "Comic Sans MS", Courier, monospace;
+}
+
+.class-link {
+	height: 120px;
+	width: 170px;
+	margin-top: 30px;
+	margin-left: 410px;
+	/*background-color: #006666;*/
+	font-size: 18px;
+}
+
+.link {
+	color: #006666;
+	text-decoration: underline;
+}
+
+.content {
+
+}
+
+.content2 {
+	margin-top: -20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}

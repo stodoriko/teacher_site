@@ -18,10 +18,10 @@
 }
 
 .article1 {
-	background-color: #ffffff;
 	width: 520px;
-	height: 475px;
+	height: 505px;
 	margin-left: 20px;
+	margin-top: -20px;
 	display: inline-block;
 	vertical-align: top;
 	font-family: "Comic Sans MS", Courier, monospace;
@@ -32,7 +32,13 @@
 }
 
 .category {
-	font-family: "Comic Sans MS", Courier, monospace; 
+	margin-top: -20px;
+	font-size: 18px;
+	font-family: "Comic Sans MS", Courier, monospace;
+}
+
+.education {
+	margin-top: 40px;
 }
 
 .article2 {
