@@ -6,15 +6,9 @@
 	margin-top: -15px;
 }
 
-.salutation {
-	text-align: center;
-	margin-top: 40px;
-	color: #FF0000;
-	font-family: "Comic Sans MS", Courier, monospace;
-}
-
 .box {
 	white-space: nowrap;
+	margin-top: 60px;
 }
 
 .article1 {
