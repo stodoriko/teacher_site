@@ -1,13 +1,43 @@
-.conversion {
-	margin-left: 100px;
-	margin-top: 40px;
-	font-size: 22px;
-	color: #FF0000;
-	font-family: "Comic Sans MS", Courier, monospace;
+.content {
+	/*background-color: #006666;*/
+	width: 940px;
+	height: 700px;
+	margin-left: 10px;
 }
 
-.video1 {
-	width: 750px;
-	height: 515px;
-	margin-left: 100px;
-	margin-top: -20px;
+p {
+	font-size: 22px;
+	margin-left: 60px;
+}
+
+.lecture-one {
+	background-color: #f1f4f8;
+	border: 1px solid #cedbe7;
+	border-radius: 4px;
+	width: 820px;
+	height: 205px;
+	margin-left: 60px;
+}
+
+.video {
+	/*background-color: #006666;*/
+	width: 300px;
+	height: 195px;
+	margin-top: 5px;
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.info {
+	background-color: #FF0000;
+	width: 495px;
+	height: 155px;
+	margin-top: -180px;
+	margin-left: 320px;
+}
+
+.link-info {
+	color: #698cb0;
+	text-decoration: underline;
+	font-size: 22px;
+}
