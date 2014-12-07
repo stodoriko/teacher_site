@@ -1,3 +1,12 @@
+.wrapper {
+	background-color: #fffafa;
+	width: 960px;
+	height: 1200px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 120px #000000;
+    border-radius: 5px;
+}
+
 .content {
 	background-color: #ffffff;
 	width: 940px;
@@ -49,10 +58,50 @@
 	margin-top: 15px;
 }
 
-.footer {
+.main-honors {
+	/*background-color: #006666;*/
+	width: 900px;
+	height: 350px;
+	position: absolute;
+}
+
+.honor-one {
+	/*background-color: #ff0000;*/
+	width: 250px;
+	height: 320px;
+	margin-top: 5px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.honor-two {
+	background-color: #ff0000;
+	width: 250px;
+	height: 320px;
+	margin-top: 5px;
+	margin-left: 50px;
+	display: inline-block;
+}
+.honor-three {
+	background-color: #ff0000;
+	width: 250px;
+	height: 320px;
+	margin-top: 5px;
+	margin-left: 20px;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+/*.footer {
 	background-color: #ffffff;
 	width: 960px;
 	height: 75px;
 	margin: 0 auto;
 	margin-top: 0px;
+}*/
+
+img {
+	margin-top: 10px;
+	margin-left: 10px;
+	position: absolute;
 }
