@@ -47,8 +47,9 @@ p {
 
 .link-info {
 	color: #698cb0;
-	text-decoration: underline;
 	font-size: 22px;
+	margin-top: -5px;
+	margin-left: 0px;
 }
 
 .subtitle {
@@ -72,6 +73,10 @@ p {
 	color: #698cb0;
 	font-size: 20px;
 	text-decoration: underline;
+}
+
+a.link-sub:hover {
+	color: #006666;
 }
 
 .description {
