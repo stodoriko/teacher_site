@@ -58,12 +58,17 @@
 	margin-top: 15px;
 }
 
+.hr {
+	width: 700px;
+	margin-top: 40px;
+}
+
 .main-honors {
 	/*background-color: #006666;*/
 	width: 900px;
 	height: 350px;
 	position: absolute;
-	margin-top: 100px;
+	margin-top: 40px;
 }
 
 .honor-one {
