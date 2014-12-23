@@ -1,0 +1,12 @@
+.content {
+	width: 900px;
+	height: 50px;
+	margin-top: 40px;
+	margin-left: 40px;
+	font-family: "Comic Sans MS", Courier, monospace;
+	text-align: center;
+}
+
+.gia-link {
+	color: #FF0000;
+}
