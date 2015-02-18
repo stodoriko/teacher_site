@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRUle  ^/index.html$  http://vyazovova.ru/ [R=301,L]
