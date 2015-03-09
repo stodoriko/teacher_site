@@ -59,3 +59,6 @@
     $counter_graphic .= "<img src=\"$digit.gif\">";
   }
 ?>
+<body>
+<p>Страница была просмотрена <?= $counter_graphic; ?> раз. </p>
+</body>
