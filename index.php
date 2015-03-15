@@ -119,7 +119,7 @@
         СОШ с.Бакуры Вязововой Татьяны Михайловны</h2>
 
       <div class="footer">
-        <p class="text-counter">Количество людей посетивших сайт - <?= $counter_graphic; ?></p>
+        <p class="text-counter">Количество уникальных пользователей посетивших сайт - <?= $counter_graphic; ?></p>
       </div>
     </div>
   </body>
