@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Сайт учителя физики Вязововой Татьяны Михайловны</title>
+    <title>Сайт учителя Вязововой Татьяны Михайловны</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link href="index.css" type="text/css" rel="stylesheet">
@@ -117,7 +115,7 @@
         </ul>
       </div>
 
-      <h2 class="salutation">Добро пожаловать на сайт учителя физики<br>
+      <h2 class="salutation">Добро пожаловать на сайт учителя <br>
         СОШ с.Бакуры Вязововой Татьяны Михайловны</h2>
 
       <div class="footer">
