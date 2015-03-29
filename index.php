@@ -6,10 +6,7 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link href="index.css" type="text/css" rel="stylesheet">
   </head>
-
-  <body>
-
-<?php
+    <?
       $file_name = "counter.txt";
       // существует ли файл в котором хранится значение счётчика
       if (!file_exists($file_name)) {
@@ -45,7 +42,7 @@
         $counter_graphic .= "<img src=\"$digit.gif\">";
       }
     ?>
-
+  <body>
     <div class="wrapper">
 
       <div class="header">
