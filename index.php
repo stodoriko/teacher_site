@@ -11,17 +11,13 @@
       // существует ли файл в котором хранится значение счётчика
       if (!file_exists($file_name)) {
         $fp = fopen($file_name, "w");
-        fwrite($fp, "1");
+        fwrite($fp, "0");
         fclose($fp);
       }
 
       // считываем значение счётчика
       $fp = fopen($file_name, "r");
       $counter = fread($fp, 10);
-      fclose($fp);
-      $counter++;
-      $fp = fopen($file_name, "w");
-      fwrite($fp, $counter);
       fclose($fp);
 
       //опрашиваем значение cookie
