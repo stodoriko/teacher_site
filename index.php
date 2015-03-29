@@ -56,7 +56,7 @@
         <ul class="nav-level1-ul">
 
           <li class="nav-level1">
-            <a href="index.html" class="nav-level1-link">
+            <a href="index.php" class="nav-level1-link">
               Главная
             </a>
             <div class="navigation1">
