@@ -19,6 +19,16 @@ p {
 	margin-left: 60px;
 }
 
+.lecture-two {
+	background-color: #f1f4f8;
+	border: 1px solid #cedbe7;
+	border-radius: 4px;
+	width: 820px;
+	height: 205px;
+	margin-left: 60px;
+	margin-top:30px;
+}
+
 .video {
 	/*background-color: #006666;*/
 	width: 300px;
