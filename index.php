@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Сайт учителя Вязововой Татьяны Михайловны</title>
+    <title>Сайт учителя физики Вязововой Татьяны Михайловны</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link href="index.css" type="text/css" rel="stylesheet">
