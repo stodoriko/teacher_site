@@ -9,7 +9,7 @@
     <link href="../css/contacts.css" type="text/css" rel="stylesheet">
   </head>
 
-  <body onload = "alert('Страница временно не работает. Приносим свои извинения');">
+  <body>
 
     <div class="wrapper">
 
@@ -87,7 +87,7 @@
         <div class="box">
 
           <div class="feedback-form">
-            <form method="POST" class="feedback-form" action="mail.php">
+            <form method="POST" class="feedback-form" action="../php/mail.php">
 
               <div class="row">
                 <label for="name">Ваше Имя <span class="req">*</span></label>
@@ -95,13 +95,13 @@
               </div>
 
               <div class="row">
-                <label for="email">E-mail Адрес<span class="req">*</span></label>
-                <input type="email" name="email" id="email" class="txt" tabindex="2" placeholder="" required>
+                <label for="e-mail"> Ваш e-mail <span class="req">*</span></label>
+                <input type="email" name="e-mail" id="email" class="txt" tabindex="2" placeholder="" required>
               </div>
 
               <div class="row">
-                <label for="subject">Тема <span class="req">*</span></label>
-                <input type="text" name="subject" id="subject" class="txt" tabindex="3" placeholder="" required>
+                <label for="theme">Тема <span class="req">*</span></label>
+                <input type="text" name="theme" id="subject" class="txt" tabindex="3" placeholder="" required>
               </div>
 
               <div class="row">
