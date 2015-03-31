@@ -19,7 +19,8 @@
 		$author = "Автор: ".$name." <".$address.">".$nl;
 		$line = "--------------------------".$nl;
 		$text = $date.$time.$author.$line.$message;
+		$text = convert_cyr_string($text, "w", "k");
 		$title = "Ваше сообщение отправлено";
 		mail($where, $theme, $text, $from);
-	} else $title = "Имеются ошибки"
+	}
 ?>
