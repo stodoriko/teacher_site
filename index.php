@@ -101,7 +101,7 @@
           </li>
 
           <li class="nav-level1">
-            <a href="html/contacts.html" class="nav-level1-link">
+            <a href="html/contacts.php" class="nav-level1-link">
               Контакты
             </a>
             <div class="navigation5">
