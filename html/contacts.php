@@ -1,4 +1,12 @@
-<?
+  <head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <link href="../index.css" type="text/css" rel="stylesheet">
+    <link href="../css/contacts.css" type="text/css" rel="stylesheet">
+  </head>
+  <?php
   $error = " ";
   $name = $_POST['name'];
   $email = $_POST['email'];
@@ -12,7 +20,7 @@
     $nl = chr(13).chr(10);
     $site = $_SERVER['SERVER_NAME'];
     $where = "s.todorikos@gmail.com";
-    $theme = "сообщение с контактной формы";
+    $theme = "Сообщение с контактной формы";
     $from = "От: <sender@$site>";
     $date = "Дата: ".date("j.n.Y").$nl;
     $time = "Время: ".date("H:i").$nl;
@@ -24,14 +32,6 @@
     mail($where, $theme, $text, $from);
   }
 ?>
-  <head>
-    <meta charset="UTF-8">
-    <title>Контакты</title>
-    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
-    <link href="../index.css" type="text/css" rel="stylesheet">
-    <link href="../css/contacts.css" type="text/css" rel="stylesheet">
-  </head>
 
   <body>
 
@@ -120,7 +120,7 @@
 
               <div class="row">
                 <label for="e-mail"> Ваш e-mail <span class="req">*</span></label>
-                <input type="email" name="e-mail" id="email" class="txt" tabindex="2" placeholder="" required>
+                <input type="email" name="email" id="email" class="txt" tabindex="2" placeholder="" required>
               </div>
 
               <div class="row">
