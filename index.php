@@ -1,4 +1,13 @@
-  <?
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Сайт учителя физики Вязововой Татьяны Михайловны</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="index.css" type="text/css" rel="stylesheet">
+  </head>
+
+    <?php
       $file_name = "counter.txt";
       // существует ли файл в котором хранится значение счётчика
       if (!file_exists($file_name)) {
@@ -30,14 +39,7 @@
         $counter_graphic .= "<img src=\"$digit.gif\">";
       }
     ?>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Сайт учителя физики Вязововой Татьяны Михайловны</title>
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link href="index.css" type="text/css" rel="stylesheet">
-  </head>
+
   <body>
     <div class="wrapper">
 
